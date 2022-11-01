@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * _memset - a function that fills
@@ -25,6 +25,6 @@ char *_memset(char *s, char b, unsigned int n);
 		s[i] = b;
 		i++
 
-	}
+	i}
 	return (s);
 }
